@@ -1,0 +1,26 @@
+# Maven specific
+**/target/*
+
+# Eclipse specific
+**/.project
+**/.settings/*
+**/.prefs
+**/.classpath
+/target/
+
+# IntelliJ IDEA specific
+.idea/
+*.iml
+
+# Velocity.log
+velocity.log
+
+# Generated docs
+documentation/html/**
+documentation/htmlnoheader/**
+
+helm-charts/strimzi-kafka-operator-*.*.*.tgz
+
+# Connect plugin (tests)
+systemtest/*.tar.gz
+systemtest/my-plugins/
